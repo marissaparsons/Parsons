@@ -1,0 +1,9 @@
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+.flex-direction-nav li a {width:65px; height:37px; margin:0; display: block; position: absolute; top:0px; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li a.next {background:url(../images/next.png) no-repeat center; right:0px;}
+.flex-direction-nav li a.prev {background:url(../images/prev.png) no-repeat center;right:65px;}
+.flex-direction-nav li a.next:hover {background:url(../images/next_a.png) no-repeat center;}
+.flex-direction-nav li a.prev:hover {background:url(../images/prev_a.png) no-repeat center;}
+.flex-direction-nav li a.disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+
+.flex-caption h2{ font-size:30px; color:#FFFFFF; background: rgba(76, 175, 80, 0.3); border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;background-color:#F9A976;padding:8px 12px; margin:20px 0 0 0; display:inline-block;} 
